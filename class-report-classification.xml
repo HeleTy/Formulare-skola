@@ -5,24 +5,33 @@
   <text 		src="SKOLNI-ROK"			x="120" y="282" z="1" fontsize="4"/>
   <text 		src="TRIDA"			x="140" y="282" z="1" fontsize="4"/>
   	<text 		src="ROCNIK"			x="79" y="282" z="1" fontsize="4"/>
-    <textcolumn src="STUDENT-JMENO"		x="20" y="251" z="1" ygap="6.87" fontsize="3" />
-    <textcolumn src="TRIDA-VYKAZ-CISLO" x="12" y="251" z="1" ygap="6.87" fontsize="3" />
+    <textcolumn src="STUDENT-JMENO"		x="26" y="251" z="1" ygap="6.87" fontsize="3" />
+    <textcolumn src="TRIDA-VYKAZ-CISLO" x="16" y="251" z="1" ygap="6.87" fontsize="3" />
   </part>
   <part name="Klasifikace">
   	<text 		src="ROCNIK"	x="40" y="282" z="2" fontsize="4"/>
-    <textcolumn src="PREDMETY"	x="14" y="260" z="2" ygap="6.87" fontsize="3" />
-    <textcolumn src="VYUCUJICI" x="70" y="260" z="2" ygap="6.87" fontsize="3" />
+    <textcolumn src="PREDMETY"	x="20" y="246" z="2" ygap="6.87" fontsize="3" />
+    <textcolumn src="VYUCUJICI" x="70" y="246" z="2" ygap="6.87" fontsize="3" />
   </part>
   
   <part name="Formulář">
 	<!--texty-->
-	<label value="Jméno a příjmení" x="50" y="260" z="1" />
-	<label value="Poznámka" x="100" y="260" z="1" />
-	<label value="Číslo" x="10" y="260" z="1" />
+	<label value="Jméno a příjmení" x="26" y="259" z="1" fontsize="3"/>
+	<label value="Poznámka" x="100" y="259" z="1" fontsize="3"/>
+	<label value="Pořadové" x="11" y="261" z="1" fontsize="3"/>
+	<label value="číslo" x="14" y="256" z="1" fontsize="3"/>
 
 	
 	
 	<!--rámečky-->
-	<line x1="10" x2="200" y1="260" y2="260" width="0.25"/>
+	<line x1="10" x2="200" y1="265" y2="265" z="1" width="0.25"/>
+	<line x1="10" x2="200" y1="255" y2="255" z="1" width="0.25"/>
+	<line x1="10" x2="10" y1="265" y2="10" z="1" width="0.25"/>
+	<line x1="200" x2="200" y1="265" y2="10" z="1" width="0.25"/>
+	<line x1="10" x2="200" y1="10" y2="10" z="1" width="0.25"/>
+	
+	<line x1="25" x2="25" y1="265" y2="10" z="1" width="0.25"/>
+	<line x1="99" x2="99" y1="265" y2="10" z="1" width="0.25"/>
+
   </part>
 </preprintedform>
